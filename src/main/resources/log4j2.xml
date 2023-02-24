@@ -2,11 +2,11 @@
 <Configuration status="INFO">
   <Appenders>
     <Console name="Console" target="SYSTEM_OUT">
-      <PatternLayout pattern="%blue{%d{HH:mm:ss.SSS}} [%t] %highlight{%-5level} %magenta{%c{1.}} - %msg%n"/>
+      <PatternLayout pattern="%blue{%d{HH:mm:ss.SSS}} [%t] %highlight{%-5level} %magenta{%c{1.}} - %msg%n" disableAnsi="false"/>
+
     </Console>
   </Appenders>
   <Loggers>
-
     <Logger name="com.learning" level="DEBUG"/>
 
     <Root level="INFO">
